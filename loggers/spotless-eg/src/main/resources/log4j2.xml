@@ -8,7 +8,6 @@
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n"/>
         </File>
 
-        <!-- Specific File Appender for HelloController -->
         <File name="HomeController" fileName="logs/homecontroller.log" append="false">
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n"/>
         </File>
